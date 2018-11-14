@@ -1,0 +1,85 @@
+.header{
+    color: rgb(128, 0, 255);
+    text-align: center;
+    background-color: lightgray;
+    margin: 0px 0px 10px 0px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainMenuBar {
+    resize: auto;
+    align-content: center;
+    width: 100%;
+}
+
+.mainMenuButton {
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    font-size: 110%;
+    font-family: "Lucida Console";
+    transition: transform .2s;
+    padding: 10px 3% 10px 3%;
+    margin: 0px 0px 100px -5px;
+    border-right: 5px solid black;
+}
+
+.mainMenuButton:hover{
+    background-color: lightskyblue;
+    transform: scale(1.01);
+}
+
+.text-summary {
+    background-color: darkgray;
+    background-size: 10% auto;
+    transition: transform .2s;
+    padding: 0 0 100px 0;
+    margin: 0px 0px 0px 100px;
+    border: blue 5px dotted;
+}
+
+.resize-image
+{
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.greybar {
+    background-color: darkgray;
+    background-size: 10% auto;
+    transition: transform .2s;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 200px;
+    border: blue 2px dotted;
+}
+
+.greybar:hover
+{
+    transform: scale(1.0);
+}
+
+.subsect{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+}
+
+.subsect_right{
+    float: right;
+    width: 33%;
+}
+
+.fb-image {
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+.fb-image:hover {
+    transform: scale(1.25);
+}
